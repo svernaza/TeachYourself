@@ -1,6 +1,6 @@
 //Samuel Vernaza
-//Simple program to play with the pre and post operator types
-
+//Simple program to play with the pre/post fix operators in C++
+//Students who come across this feel free to use it for understanding!
 
 #include <iostream>
 using namespace std;
@@ -28,8 +28,6 @@ int main()
 	cout << "Now a loop to demonstrate post-fix assignment" << endl;
 	cout << "Num2 is assigned Num1's value before it's incremented" << endl;
 	cout << endl;
-
-//Yes, I know I could have made this a function, but I chose this life lol.
 
 	while (Num2 < 10)
 	{
