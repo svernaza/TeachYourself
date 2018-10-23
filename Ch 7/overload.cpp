@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-double PI = 3.14159; //constant
+const double PI = 3.14159; //constant
 double Area(double radius); //area for circle
 double Area(double radius, double height); //area for cylinder
 
